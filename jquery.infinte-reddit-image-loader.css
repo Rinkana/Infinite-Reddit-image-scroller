@@ -1,0 +1,20 @@
+div.infinite-image{
+	width:500px;
+	margin:0 auto;
+}
+div.infinite-image img{
+	width:100%;
+}
+div.album{
+	width:500px;
+	margin:0 auto;
+	position:relative;
+}
+div.album div.infinite-image{
+	position:absolute;
+	top:0;
+	left:0;
+}
+div.album div.infinite-image:first-child{
+	position:static;
+}
